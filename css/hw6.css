@@ -1,0 +1,241 @@
+/************************************************
+ homework 6 styles
+************************************************/
+
+
+* {
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {background-color: rgba(247,225,205,0.75);}
+
+.header {
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	background-color: #E8B548;
+	height: 130px;
+	position: relative;
+	border: 2px solid #E8B548;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.main-heading {
+	font-size: 40px;
+}
+
+h1, h3 {font-weight: bold;}
+
+h1, h2 {margin-left: 40px;}
+
+.menu {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: inline-block;
+}
+
+.link {
+	margin-right: 40px;
+}
+	
+nav ul li {
+	font-size: 125%;
+	list-style: none;
+	display: inline-block;
+}
+	
+.taz {
+	position: absolute;
+	z-index: 100;
+	width: 15%;
+	left: 20%;
+	top: 30%;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+	
+em {color: red;}
+
+ul li {list-style: circle;}
+
+.col {
+	margin-top: 20px;
+	background-color: rgba(255,231,180,0.3);
+	border: 2px solid #E8B548;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.title {color: #41424A;}
+
+.title.background {color: #AD422D;}
+
+.container-contact,
+.container-training {
+	width: 30%;
+	margin: auto auto;
+}
+		
+
+/* breakpoint @ max-width 320px for extra small devices */
+@media (max-width: 320px) {
+	h1 {
+		margin: 2px;
+		font-size: 18px;}
+		
+	h2 {
+		margin: 2px;
+		font-size: 16px;
+	}
+	
+	nav ul li {
+		font-size: 110%;
+	}
+	
+	.menu {
+		font-size: 12px;
+		left: 20%;
+		top: 60%;
+		margin-top: 3px;
+	}
+	
+	.taz {
+		left: 5%;
+		top: 65%;
+	}
+}
+
+/* breakpoint @ min-width 321px and max-width 575px for extra small devices */
+@media (min-width: 321px) and (max-width: 575px) {
+	h1 {
+		margin: 2px;
+		font-size: 18px;}
+		
+	h2 {
+		margin: 2px;
+		font-size: 16px;
+	}
+	
+	nav ul li {
+		font-size: 120%;
+	}
+	
+	.menu {
+		font-size: 12px;
+		left: 10%;
+		top: 60%;
+		margin-top: 3px;
+	}
+	
+	.taz {
+		width: 15%;
+		left: 5%;
+		top: 65%;
+	}
+}
+
+/* breakpoint @ min-width 576px and max-width 767px for small devices */
+@media (min-width: 576px) and (max-width: 767px) {
+	h1 {
+		margin: 2px;
+		font-size: 20px;}
+		
+	h2 {
+		margin: 2px;
+		font-size: 18px;
+	}
+	
+	nav ul li {
+		font-size: 120%;
+	}
+	
+	.menu {
+		font-size: 13px;
+		left: 20%;
+		top: 60%;
+		margin-top: 5px;
+	}
+	
+	.taz {
+		width: 15%;
+		left: 5%;
+		top: 65%;
+	}
+}
+
+/* breakpoint @ min-width 768px and max-width 991 for medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		margin: 2px;
+		font-size: 20px;}
+		
+	h2 {
+		margin: 2px;
+		font-size: 18px;
+	}
+	
+	nav ul li {
+		font-size: 120%;
+	}
+	
+	.menu {
+		font-size: 13px;
+		left: 20%;
+		top: 60%;
+		margin-top: 5px;
+	}
+	
+	.taz {
+		width: 15%;
+		left: 5%;
+		top: 65%;
+	}
+}
+
+/* breakpoint @ min-width 992px and max-width 1199px for large devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1 {
+		margin: 2px;
+		font-size: 20px;}
+		
+	h2 {
+		margin: 2px;
+		font-size: 18px;
+	}
+	
+	nav ul li {
+		font-size: 120%;
+	}
+	
+	.menu {
+		font-size: 13px;
+		left: 55%;
+		top: 60%;
+		margin-top: 5px;
+	}
+	
+	.taz {
+		width: 10%;
+		left: 5%;
+		top: 65%;
+	}
+}
+
+/* breakpoint @ min-width 1200px for extra large devices */
+@media (min-width: 1200px)  {
+	.menu {
+		left: 50%;
+		top: 50%;
+	}
+	
+	.taz {
+		width: 5%;
+		left: 20%;
+		top: 30%;
+	}
+}
